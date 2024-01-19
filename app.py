@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st 
 import numpy as np 
-import sklearn
+import scikit-learn
 
 st.header("Book Recommendation System with KNN")
 model = pickle.load(open('model.pkl', 'rb'))
